@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "ringbearermedium";
+  src: url("/font/webfontkit-20210603-144549/ringm___-webfont.woff2")
+      format("woff2"),
+    url("/font/webfontkit-20210603-144549/ringm___-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "elvish_ring_nfiregular";
+  src: url("/font/webfontkit-20210603-144549/webfontkit-20210608-195404/elvish_ring_nfi-webfont.woff2")
+      format("woff2"),
+    url("elvish_ring_nfi-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// @font-face {
+//   font-family: "elvish_ring_nfiregular";
+//   src: url("elvish_ring_nfi-webfont.woff2") format("woff2"),
+//     url("elvish_ring_nfi-webfont.woff") format("woff");
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+.introduction-text {
+  color: black;
+}
+
+.heading-tertiary {
+  text-align: left;
+}

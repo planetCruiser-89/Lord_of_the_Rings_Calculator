@@ -1,0 +1,30 @@
+.the-one-ring {
+  &-container {
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &--outer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 25rem;
+    width: 25rem;
+    background-color: white;
+  }
+
+  &--inner {
+    background-image: $ring-gradient;
+    content: "";
+    position: absolute;
+    top: -40px;
+    bottom: -40px;
+    right: -40px;
+    left: -40px;
+    z-index: -1;
+    border-radius: inherit;
+  }
+}

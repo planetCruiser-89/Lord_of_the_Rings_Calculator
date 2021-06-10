@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  /* 
+    62.5 = 10 / 16 
+    
+    We want to set...
+    1rem = 10px
+
+    The browser default is always...
+    16px
+  */
+}
+
+body {
+  box-sizing: border-box;
+
+  padding: 3rem;
+}

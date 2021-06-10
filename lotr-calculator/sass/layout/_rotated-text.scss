@@ -1,0 +1,722 @@
+.the-one-ring-text {
+  position: relative;
+  margin-left: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.tengwar {
+  font-family: "elvish_ring_nfiregular";
+  font-size: 1.5rem;
+  margin-left: -1rem;
+  display: flex;
+  flex-direction: column;
+
+  &__char-1 {
+    position: absolute;
+    font-size: 2.8rem;
+    margin-top: -1rem;
+    color: red;
+  }
+  &__char-2 {
+    position: absolute;
+    font-size: 2.5rem;
+    margin-top: -0.5rem;
+    margin-left: 1rem;
+    color: red;
+    transform: rotate(12deg);
+  }
+
+  &__char-3 {
+    position: absolute;
+    font-size: 1.75rem;
+    margin-top: 0.51rem;
+    margin-left: 2.3rem;
+    color: red;
+    transform: rotate(20deg);
+  }
+
+  &__char-4 {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: -0.25rem;
+    margin-left: 4rem;
+    color: red;
+    transform: rotate(28deg);
+  }
+
+  &__char-5 {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    color: red;
+    transform: rotate(40deg);
+  }
+
+  &__char-6 {
+    position: absolute;
+    font-size: 2.5rem;
+    margin-top: 0.75rem;
+    margin-left: 4.25rem;
+    color: red;
+    transform: rotate(40deg);
+  }
+
+  &__char-7 {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 5.5rem;
+    color: red;
+    transform: rotate(40deg);
+  }
+
+  &__char-8 {
+    position: absolute;
+    font-size: 2.5rem;
+    margin-top: 2.25rem;
+    margin-left: 7rem;
+    color: red;
+    transform: rotate(40deg);
+  }
+
+  &__char-9 {
+    position: absolute;
+    font-size: 2.75rem;
+    margin-top: 3rem;
+    margin-left: 8.75rem;
+    color: red;
+    transform: rotate(42deg);
+  }
+
+  &__char-10 {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 4.5rem;
+    margin-left: 10.5rem;
+    color: red;
+    transform: rotate(42deg);
+  }
+
+  &__char-11 {
+    position: absolute;
+    font-size: 3rem;
+    margin-top: 4.75rem;
+    margin-left: 10rem;
+    color: red;
+    transform: rotate(50deg);
+  }
+
+  &__char-12 {
+    position: absolute;
+    font-size: 2.75rem;
+    margin-top: 5.85rem;
+    margin-left: 10rem;
+    color: red;
+    transform: rotate(58deg);
+  }
+
+  &__char-13 {
+    position: absolute;
+    font-size: 1.75rem;
+    margin-top: 7.5rem;
+    margin-left: 11.5rem;
+    color: red;
+    transform: rotate(70deg);
+  }
+
+  &__char-14 {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 9rem;
+    margin-left: 11.75rem;
+    color: red;
+    transform: rotate(70deg);
+  }
+
+  &__char-15 {
+    position: absolute;
+    font-size: 1.55rem;
+    margin-top: 10.75rem;
+    margin-left: 12.75rem;
+    color: red;
+    transform: rotate(74deg);
+  }
+
+  &__char-16 {
+    position: absolute;
+    font-size: 1.55rem;
+    margin-top: 11.5rem;
+    margin-left: 12.75rem;
+    color: red;
+    transform: rotate(76deg);
+  }
+
+  &__char-17 {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 12.2rem;
+    margin-left: 12.5rem;
+    color: red;
+    transform: rotate(85deg);
+  }
+
+  &__char-18 {
+    position: absolute;
+    font-size: 2.25rem;
+    margin-top: 14rem;
+    margin-left: 12.65rem;
+    color: red;
+    transform: rotate(92deg);
+  }
+
+  &__char-19 {
+    position: absolute;
+    font-size: 2.25rem;
+    margin-top: 15rem;
+    margin-left: 12.25rem;
+    color: red;
+    transform: rotate(96deg);
+  }
+
+  &__char-20 {
+    position: absolute;
+    font-size: 2.25rem;
+    margin-top: 16rem;
+    margin-left: 12rem;
+    color: red;
+    transform: rotate(100deg);
+  }
+
+  &__char-21 {
+    position: absolute;
+    font-size: 3rem;
+    margin-top: 17rem;
+    margin-left: 12.25rem;
+    color: red;
+    transform: rotate(104deg);
+  }
+
+  &__char-22 {
+    position: absolute;
+    font-size: 2.5rem;
+    margin-top: 18.65rem;
+    margin-left: 11.65rem;
+    color: red;
+    transform: rotate(115deg);
+  }
+
+  &__char-23 {
+    position: absolute;
+    font-size: 2.25rem;
+    margin-top: 20rem;
+    margin-left: 11.35rem;
+    color: red;
+    transform: rotate(120deg);
+  }
+
+  &__char-24 {
+    position: absolute;
+    font-size: 2.25rem;
+    margin-top: 22.1rem;
+    margin-left: 11.1rem;
+    color: red;
+    transform: rotate(130deg);
+  }
+
+  &__char-25 {
+    position: absolute;
+    font-size: 2.25rem;
+    margin-top: 21.75rem;
+    margin-left: 10.2rem;
+    color: red;
+    transform: rotate(135deg);
+  }
+
+  &__char-26 {
+    position: absolute;
+    font-size: 2.25rem;
+    margin-top: 22.5rem;
+    margin-left: 9.5rem;
+    color: red;
+    transform: rotate(140deg);
+  }
+
+  &__char-27 {
+    position: absolute;
+    font-size: 2.1rem;
+    margin-top: 23.2rem;
+    margin-left: 8.6rem;
+    color: red;
+    transform: rotate(138deg);
+  }
+
+  &__char-28 {
+    position: absolute;
+    font-size: 2.25rem;
+    margin-top: 24.5rem;
+    margin-left: 7.25rem;
+    color: red;
+    transform: rotate(138deg);
+  }
+
+  &__char-29 {
+    position: absolute;
+    font-size: 2.75rem;
+    margin-top: 25rem;
+    margin-left: 6.75rem;
+    color: red;
+    transform: rotate(142deg);
+  }
+
+  &__char-30 {
+    position: absolute;
+    font-size: 1.9rem;
+    margin-top: 27rem;
+    margin-left: 5.85rem;
+    color: red;
+    transform: rotate(144deg);
+  }
+
+  &__char-31 {
+    position: absolute;
+    font-size: 2.25rem;
+    margin-top: 26.25rem;
+    margin-left: 5.15rem;
+    color: red;
+    transform: rotate(150deg);
+  }
+
+  &__char-32 {
+    position: absolute;
+    font-size: 2.25rem;
+    margin-top: 26.65rem;
+    margin-left: 4.5rem;
+    color: red;
+    transform: rotate(154deg);
+  }
+
+  &__char-33 {
+    position: absolute;
+    font-size: 2.25rem;
+    margin-top: 26.85rem;
+    margin-left: 3.5rem;
+    color: red;
+    transform: rotate(150deg);
+  }
+
+  &__char-34 {
+    position: absolute;
+    font-size: 1.75rem;
+    margin-top: 28rem;
+    margin-left: 2rem;
+    color: red;
+    transform: rotate(155deg);
+  }
+
+  &__char-35 {
+    position: absolute;
+    font-size: 1.5rem;
+    margin-top: 28.5rem;
+    margin-left: 1.35rem;
+    color: red;
+    transform: rotate(160deg);
+  }
+
+  &__char-36 {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 27.75rem;
+    margin-left: 0.45rem;
+    color: red;
+    transform: rotate(168deg);
+  }
+
+  &__char-37 {
+    position: absolute;
+    font-size: 2.5rem;
+    margin-top: 27.5rem;
+    margin-left: -1.3rem;
+    color: red;
+    transform: rotate(175deg);
+  }
+
+  &__char-38 {
+    position: absolute;
+    font-size: 2.5rem;
+    margin-top: 27.65rem;
+    margin-left: -2.75rem;
+    color: red;
+    transform: rotate(175deg);
+  }
+
+  &__char-39 {
+    position: absolute;
+    font-size: 2.5rem;
+    margin-top: 27.5rem;
+    margin-left: -3.5rem;
+    color: red;
+    transform: rotate(190deg);
+  }
+
+  &__char-40 {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 27.6rem;
+    margin-left: -4.2rem;
+    color: red;
+    transform: rotate(-165deg);
+  }
+
+  &__char-41 {
+    position: absolute;
+    font-size: 1.75rem;
+    margin-top: 28.75rem;
+    margin-left: -5.85rem;
+    color: red;
+    transform: rotate(-165deg);
+  }
+
+  &__char-42 {
+    position: absolute;
+    font-size: 2.25rem;
+    margin-top: 27rem;
+    margin-left: -5.55rem;
+    color: red;
+    transform: rotate(-155deg);
+  }
+
+  &__char-43 {
+    position: absolute;
+    font-size: 2.25rem;
+    margin-top: 27rem;
+    margin-left: -6.5rem;
+    color: red;
+    transform: rotate(-155deg);
+  }
+
+  &__char-44 {
+    position: absolute;
+    font-size: 2.25rem;
+    margin-top: 26rem;
+    margin-left: -7rem;
+    color: red;
+    transform: rotate(-150deg);
+  }
+
+  &__char-45 {
+    position: absolute;
+    font-size: 2.5rem;
+    margin-top: 25rem;
+    margin-left: -9.7rem;
+    color: red;
+    transform: rotate(-150deg);
+  }
+
+  &__char-46 {
+    position: absolute;
+    font-size: 2.5rem;
+    margin-top: 24.5rem;
+    margin-left: -10.25rem;
+    color: red;
+    transform: rotate(-150deg);
+  }
+
+  &__char-47 {
+    position: absolute;
+    font-size: 1.75rem;
+    margin-top: 23.75rem;
+    margin-left: -10.5rem;
+    color: red;
+    transform: rotate(-130deg);
+  }
+
+  &__char-48 {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 23.75rem;
+    margin-left: -12.5rem;
+    color: red;
+    transform: rotate(-136deg);
+  }
+
+  &__char-49 {
+    position: absolute;
+    font-size: 2.25rem;
+    margin-top: 22.85rem;
+    margin-left: -11.75rem;
+    color: red;
+    transform: rotate(-130deg);
+  }
+
+  &__char-50 {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 22.5rem;
+    margin-left: -12.5rem;
+    color: red;
+    transform: rotate(-128deg);
+  }
+
+  &__char-51 {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 21.5rem;
+    margin-left: -12.25rem;
+    color: red;
+    transform: rotate(-124deg);
+  }
+
+  &__char-52 {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 20.65rem;
+    margin-left: -14rem;
+    color: red;
+    transform: rotate(-124deg);
+  }
+
+  &__char-53 {
+    position: absolute;
+    font-size: 1.5rem;
+    margin-top: 20.1rem;
+    margin-left: -14.2rem;
+    color: red;
+    transform: rotate(-118deg);
+  }
+
+  &__char-54 {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 19rem;
+    margin-left: -14.5rem;
+    color: red;
+    transform: rotate(-106deg);
+  }
+
+  &__char-55 {
+    position: absolute;
+    font-size: 2.25rem;
+    margin-top: 17.75rem;
+    margin-left: -15.25rem;
+    color: red;
+    transform: rotate(-104deg);
+  }
+
+  &__char-56 {
+    position: absolute;
+    font-size: 2.25rem;
+    margin-top: 15.85rem;
+    margin-left: -15.65rem;
+    color: red;
+    transform: rotate(-96deg);
+  }
+
+  &__char-57 {
+    position: absolute;
+    font-size: 2.25rem;
+    margin-top: 14.95rem;
+    margin-left: -15.2rem;
+    color: red;
+    transform: rotate(-94deg);
+  }
+
+  &__char-58 {
+    position: absolute;
+    font-size: 2.25rem;
+    margin-top: 14.2rem;
+    margin-left: -15.25rem;
+    color: red;
+    transform: rotate(-96deg);
+  }
+
+  &__char-59 {
+    position: absolute;
+    font-size: 2.25rem;
+    margin-top: 12.65rem;
+    margin-left: -15.75rem;
+    color: red;
+    transform: rotate(-88deg);
+  }
+
+  &__char-60 {
+    position: absolute;
+    font-size: 2.25rem;
+    margin-top: 11.65rem;
+    margin-left: -15.45rem;
+    color: red;
+    transform: rotate(-88deg);
+  }
+
+  &__char-61 {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 10.75rem;
+    margin-left: -14.95rem;
+    color: red;
+    transform: rotate(-87deg);
+  }
+
+  &__char-62 {
+    position: absolute;
+    font-size: 2.25rem;
+    margin-top: 9.45rem;
+    margin-left: -14.55rem;
+    color: red;
+    transform: rotate(-78deg);
+  }
+
+  &__char-63 {
+    position: absolute;
+    font-size: 2.25rem;
+    margin-top: 8.85rem;
+    margin-left: -14.65rem;
+    color: red;
+    transform: rotate(-75deg);
+  }
+
+  &__char-64 {
+    position: absolute;
+    font-size: 2.25rem;
+    margin-top: 7.4rem;
+    margin-left: -14rem;
+    color: red;
+    transform: rotate(-65deg);
+  }
+
+  &__char-65 {
+    position: absolute;
+    font-size: 2.75rem;
+    margin-top: 5.75rem;
+    margin-left: -13.85rem;
+    color: red;
+    transform: rotate(-58deg);
+  }
+
+  &__char-66 {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 4.9rem;
+    margin-left: -13.65rem;
+    color: red;
+    transform: rotate(-62deg);
+  }
+
+  &__char-67 {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 5.2rem;
+    margin-left: -12rem;
+    color: red;
+    transform: rotate(-58deg);
+  }
+
+  &__char-68 {
+    position: absolute;
+    font-size: 2.25rem;
+    margin-top: 4.25rem;
+    margin-left: -11.75rem;
+    color: red;
+    transform: rotate(-53deg);
+  }
+
+  &__char-69 {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 3.75rem;
+    margin-left: -11rem;
+    color: red;
+    transform: rotate(-53deg);
+  }
+
+  &__char-70 {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-left: -11rem;
+    color: red;
+    transform: rotate(-50deg);
+  }
+
+  &__char-71 {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: -10rem;
+    color: red;
+    transform: rotate(-44deg);
+  }
+
+  &__char-72 {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 2.1rem;
+    margin-left: -8rem;
+    color: red;
+    transform: rotate(-38deg);
+  }
+
+  &__char-73 {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    margin-left: -7.8rem;
+    color: red;
+    transform: rotate(-38deg);
+  }
+
+  &__char-74 {
+    position: absolute;
+    font-size: 2.25rem;
+    margin-top: 1rem;
+    margin-left: -7.6rem;
+    color: red;
+    transform: rotate(-38deg);
+  }
+
+  &__char-75 {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 0.95rem;
+    margin-left: -6.5rem;
+    color: red;
+    transform: rotate(-32deg);
+  }
+
+  &__char-76 {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 0.25rem;
+    margin-left: -5.5rem;
+    color: red;
+    transform: rotate(-12deg);
+  }
+
+  &__char-77 {
+    position: absolute;
+    font-size: 1.5rem;
+    margin-top: 0.4rem;
+    margin-left: -3.8rem;
+    color: red;
+    transform: rotate(-5deg);
+  }
+
+  &__char-78 {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 0rem;
+    margin-left: -3.25rem;
+    color: red;
+    transform: rotate(-3deg);
+  }
+
+  &__char-79 {
+    position: absolute;
+    font-size: 2.8rem;
+    margin-top: -1.1rem;
+    margin-left: -2.55rem;
+    color: red;
+    transform: rotate(-3deg);
+  }
+}

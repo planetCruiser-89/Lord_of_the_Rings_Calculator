@@ -1,0 +1,39 @@
+fellowship {
+    171 minutes 
+    2 hours 51 minutes
+}
+
+fellowship extended {
+    208 minutes
+    3 hours 28 minutes
+}
+
+two towers {
+    179 minutes
+    2 hours 59 minutes
+
+    extended {
+        235 minutes
+        3 hours 55 minutes
+    }
+}
+
+return of the king {
+    200 minutes
+    3 hours 20 minutes
+
+    extended {
+        263 minutes
+        4 hours 23 minutes
+        }
+}
+
+all theatrical {
+    550 minutes
+    9 hours 10 minutes
+}
+
+all extended {
+    706 minutes
+    11 hours 46 minutes
+}
